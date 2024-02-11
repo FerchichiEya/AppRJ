@@ -1,0 +1,66 @@
+.navbar{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    box-shadow: rgb(156 156 160 / 41%) 0px 7px 29px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .navbar-container{
+    width: 90%;
+    height: 95%;
+    /* background-color: greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar .navbar-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #fff; */
+    width: 95%;
+}
+.navbar-container .navbar-logo{
+    width: max-content;
+    height: 80px;
+    /* background-color: #fff; */
+
+}
+.navbar-container .navbar-title{
+    width: 90%;
+    height: 80px;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.navbar-title h2{
+    height: 30px;
+    
+    /* background-color: red; */
+display: flex;
+align-items: center;
+justify-content: center;    
+}
+.navbar-item{
+    width: 30px;
+    height: 30px;
+}
+.navbar-title .nb-menu{
+ width: 40px;
+ height: 30px;
+    /* background-color: #fff; */
+    display: flex;
+align-items: center;
+justify-content: flex-end; 
+}
+.navbar-title h2:hover{
+    border-bottom: 4px solid black;
+    cursor: pointer;
+    transition: 2s;
+}
+
